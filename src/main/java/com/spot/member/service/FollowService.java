@@ -1,4 +1,4 @@
-package com.spot.community.service;
+package com.spot.member.service;
 
 
 import lombok.RequiredArgsConstructor;
@@ -7,13 +7,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * 댓글 CRUD 로직
+ * 팔로우 관계 로직
  */
 @Service
 @RequiredArgsConstructor
 @Transactional(readOnly = true)
-public class CommentService {
-
+public class FollowService {
 
 
 }

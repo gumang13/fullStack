@@ -1,4 +1,4 @@
-package com.spot.community.service;
+package com.spot.mypage.service;
 
 
 import lombok.RequiredArgsConstructor;
@@ -6,14 +6,15 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+
+
 /**
- * 댓글 CRUD 로직
+ * 출사 루트 CRUD 로직
  */
 @Service
 @RequiredArgsConstructor
 @Transactional(readOnly = true)
-public class CommentService {
-
+public class RouteService {
 
 
 }
